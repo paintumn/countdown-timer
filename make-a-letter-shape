@@ -1,0 +1,12 @@
+row = int(input("How many rows: "))         
+columns = int(input("How many columns: "))  
+symbol = input("What symbol?: ")            
+turn = 0                                    
+                                            
+for i in range(row):                        
+    if turn > 0:                            
+        print("")                           
+    turn += 1                               
+                                            
+    for c in range(columns):                
+        print(symbol, end="")               
